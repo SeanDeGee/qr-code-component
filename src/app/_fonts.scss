@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'Space Grotesk';
+	font-weight: 400;
+	src: url('~/src/assets/fonts/space_grotesk.woff2') format('woff2');
+}
+
+p,
+span,
+a,
+input,
+button,
+label,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Space Grotesk';
+}
