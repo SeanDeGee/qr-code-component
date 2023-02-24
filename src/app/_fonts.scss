@@ -1,7 +1,17 @@
 @font-face {
-	font-family: 'Space Grotesk';
+	font-family: 'Outfit Regular';
 	font-weight: 400;
-	src: url('~/src/assets/fonts/space_grotesk.woff2') format('woff2');
+	src: url('~/src/assets/fonts/outfit_400.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Outfit Bold';
+	font-weight: 700;
+	src: url('~/src/assets/fonts/outfit_700.woff2') format('woff2');
+}
+
+:root {
+	font-size: 15px;
 }
 
 p,
@@ -16,5 +26,5 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Space Grotesk';
+	font-family: 'Outfit Regular';
 }

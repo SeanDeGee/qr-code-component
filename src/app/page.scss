@@ -3,6 +3,7 @@
 	height: 100dvh;
 
 	display: grid;
+	place-content: center;
 
-	background: conic-gradient(at top right, var(--clr-primary), var(--clr-secondary));
+	background-color: var(--clr-light-grey);
 }

@@ -1,0 +1,51 @@
+.qrcode {
+	padding: 1rem 0;
+	width: 22rem;
+
+	display: grid;
+	gap: 1rem;
+	justify-items: center;
+
+	background-color: var(--clr-white);
+	box-shadow: 5px 5px 22px 0px var(--clr-box-shadow);
+	border-radius: 2rem;
+
+    animation: entry 0.2s ease-out;
+
+    @keyframes entry {
+        0% {
+            translate: 0 -2rem;
+            opacity: 0;
+        }
+
+        100% {
+            translate: 0 0;
+            opacity: 1;
+        }
+    }
+
+	&__image {
+		width: 20rem;
+		height: auto;
+
+		border-radius: 1rem;
+	}
+
+	&__heading,
+	&__description {
+		width: 85%;
+	}
+
+	&__heading {
+		color: var(--clr-dark-blue);
+
+		font-size: 1.5rem;
+		text-align: center;
+	}
+
+	&__description {
+		color: var(--clr-greyish-blue);
+
+		text-align: center;
+	}
+}
